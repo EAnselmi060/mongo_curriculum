@@ -1,0 +1,448 @@
+[
+    {
+      "Resumen": "Desarrollador de software con experiencia en desarrollo web y movil.",
+      "DatosPersonales": {
+        "Nombre": "Juan Perez",
+        "Direccion": "123 Calle Principal",
+        "Telefonos": ["123-456-7890", "098-765-4321"],
+        "Email": "juan@example.com",
+        "RedesSociales": {
+          "LinkedIn": "https://linkedin.com/in/juanperez",
+          "GitHub": "https://github.com/juanperez"
+        }
+      },
+      "Educacion": {
+        "EnsenanzaBasica": "Colegio ABC",
+        "EnsenanzaMedia": "Liceo XYZ",
+        "EducacionUniversitaria": "Universidad 123",
+        "Otros": "Curso de Desarrollo Web en linea"
+      },
+      "Laboral": {
+        "Pasantia": {
+          "Empresa": "TechCorp",
+          "Cargo": "Desarrollador Jr."
+        },
+        "Trabajos": [
+          {
+            "Tipo": "Freelancer",
+            "Empresa": "Independent",
+            "Cargo": "Desarrollador Web"
+          },
+          {
+            "Tipo": "Empleado",
+            "Empresa": "Software Solutions",
+            "Cargo": "Desarrollador Full Stack"
+          }
+        ]
+      },
+      "ConocimientosTecnicos": {
+        "OS": ["Windows", "Linux"],
+        "LenguajeDeDesarrollo": ["JavaScript", "Python"],
+        "BasesDeDatos": ["MongoDB", "MySQL"],
+        "Mobiles": ["React Native", "Flutter"],
+        "OtrosSoftwares": ["Adobe Photoshop", "Microsoft Office"]
+      },
+      "InteresesPersonales": {
+        "Deporte": "Futbol",
+        "Musica": "Rock",
+        "Animales": "Perros",
+        "Entretenimiento": "Videojuegos"
+      }
+    },
+
+    {
+        "Resumen": "Ingeniero de software con experiencia en desarrollo de aplicaciones moviles.",
+        "DatosPersonales": {
+          "Nombre": "Maria Garcia",
+          "Direccion": "456 Main Street",
+          "Telefonos": ["555-123-4567", "777-987-6543"],
+          "Email": "maria@example.com",
+          "RedesSociales": {
+            "LinkedIn": "https://linkedin.com/in/mariagarcia",
+            "GitHub": "https://github.com/mariagarcia"
+          }
+        },
+        "Educacion": {
+          "EnsenanzaBasica": "Colegio XYZ",
+          "EnsenanzaMedia": "Liceo ABC",
+          "EducacionUniversitaria": "Universidad 456"
+        },
+        "Laboral": {
+          "Trabajos": [
+            {
+              "Tipo": "Empleado",
+              "Empresa": "Tech Solutions",
+              "Cargo": "Desarrollador de iOS"
+            },
+            {
+              "Tipo": "Freelancer",
+              "Empresa": "Independent",
+              "Cargo": "Desarrollador de Aplicaciones Moviles"
+            }
+          ]
+        },
+        "ConocimientosTecnicos": {
+          "OS": ["iOS", "Android"],
+          "LenguajeDeDesarrollo": ["Swift", "Java"],
+          "BasesDeDatos": ["SQLite", "Firebase"],
+          "Mobiles": ["Flutter", "Xamarin"]
+        },
+        "InteresesPersonales": {
+          "Deporte": "Tenis",
+          "Musica": "Pop",
+          "Entretenimiento": "Cine"
+        }
+    },
+
+    {
+        "Resumen": "Desarrolladora web con experiencia en diseno y desarrollo de interfaces de usuario.",
+        "DatosPersonales": {
+          "Nombre": "Carlos Lopez",
+          "Direccion": "789 Elm Street",
+          "Telefonos": ["999-876-5432"],
+          "Email": "carlos@example.com",
+          "RedesSociales": {
+            "LinkedIn": "https://linkedin.com/in/carloslopez",
+            "GitHub": "https://github.com/carloslopez"
+          }
+        },
+        "Educacion": {
+          "EnsenanzaBasica": "Escuela Primaria 123",
+          "EnsenanzaMedia": "Colegio ABC",
+          "EducacionUniversitaria": "Universidad XYZ"
+        },
+        "Laboral": {
+          "Trabajos": [
+            {
+              "Tipo": "Empleado",
+              "Empresa": "WebTech Solutions",
+              "Cargo": "Desarrollador Frontend"
+            },
+            {
+              "Tipo": "Freelancer",
+              "Empresa": "Independent",
+              "Cargo": "Disenador UI/UX"
+            }
+          ]
+        },
+        "ConocimientosTecnicos": {
+          "OS": ["Windows", "Linux"],
+          "LenguajeDeDesarrollo": ["HTML", "CSS", "JavaScript"],
+          "BasesDeDatos": ["MySQL", "MongoDB"],
+          "Mobiles": [],
+          "OtrosSoftwares": ["Adobe Illustrator", "Sketch"]
+        },
+        "InteresesPersonales": {
+          "Deporte": "Baloncesto",
+          "Musica": "Jazz",
+          "Entretenimiento": "Viajar"
+        }
+    },
+
+    {
+        "Resumen": "Disenadora grafica con experiencia en branding y diseno de interfaces digitales.",
+        "DatosPersonales": {
+          "Nombre": "Pedro Sanchez",
+          "Direccion": "789 Pine Street",
+          "Telefonos": ["555-321-9876"],
+          "Email": "pedro@example.com",
+          "RedesSociales": {
+            "LinkedIn": "https://linkedin.com/in/pedrosanchez",
+            "GitHub": "https://github.com/pedrosanchez"
+          }
+        },
+        "Educacion": {
+          "EnsenanzaBasica": "Colegio ABC",
+          "EnsenanzaMedia": "Liceo XYZ",
+          "EducacionUniversitaria": "Universidad 789"
+        },
+        "Laboral": {
+          "Trabajos": [
+            {
+              "Tipo": "Empleado",
+              "Empresa": "Creative Designs",
+              "Cargo": "Disenador Grafico"
+            },
+            {
+              "Tipo": "Freelancer",
+              "Empresa": "Independent",
+              "Cargo": "Disenador UI/UX"
+            }
+          ]
+        },
+        "ConocimientosTecnicos": {
+          "LenguajeDeDesarrollo": ["HTML", "CSS"],
+          "BasesDeDatos": ["MongoDB"],
+          "OtrosSoftwares": ["Adobe Illustrator", "Adobe XD", "Sketch"]
+        },
+        "InteresesPersonales": {
+          "Deporte": "Senderismo",
+          "Musica": "Indie",
+          "Entretenimiento": "Fotografia"
+        }
+      },
+
+      {
+        "Resumen": "Ingeniero de sistemas con experiencia en desarrollo de software y gestion de proyectos.",
+        "DatosPersonales": {
+          "Nombre": "Laura Gomez",
+          "Direccion": "456 Maple Street",
+          "Telefonos": ["555-987-6543"],
+          "Email": "laura@example.com",
+          "RedesSociales": {
+            "LinkedIn": "https://linkedin.com/in/lauragomez",
+            "GitHub": "https://github.com/lauragomez"
+          }
+        },
+        "Educacion": {
+          "EnsenanzaBasica": "Colegio XYZ",
+          "EnsenanzaMedia": "Liceo ABC",
+          "EducacionUniversitaria": "Universidad 789"
+        },
+        "Laboral": {
+          "Trabajos": [
+            {
+              "Tipo": "Empleado",
+              "Empresa": "Tech Solutions",
+              "Cargo": "Ingeniero de Sistemas"
+            },
+            {
+              "Tipo": "Freelancer",
+              "Empresa": "Independent",
+              "Cargo": "Desarrollador de Software"
+            }
+          ]
+        },
+        "ConocimientosTecnicos": {
+          "LenguajeDeDesarrollo": ["Python", "Java"],
+          "BasesDeDatos": ["MySQL", "PostgreSQL"],
+          "OtrosSoftwares": ["Jira", "Git"]
+        },
+        "InteresesPersonales": {
+          "Deporte": "Ciclismo",
+          "Musica": "Electronica",
+          "Entretenimiento": "Cine"
+        }
+      },
+
+      {
+        "Resumen": "Desarrollador de software con enfoque en aplicaciones moviles y experiencia en diseno de interfaces.",
+        "DatosPersonales": {
+          "Nombre": "Alejandro Garcia",
+          "Direccion": "789 Cedar Street",
+          "Telefonos": ["555-456-1234"],
+          "Email": "alejandro@example.com",
+          "RedesSociales": {
+            "LinkedIn": "https://linkedin.com/in/alejandrogarcia",
+            "GitHub": "https://github.com/alejandrogarcia"
+          }
+        },
+        "Educacion": {
+          "EnsenanzaBasica": "Escuela Primaria 789",
+          "EnsenanzaMedia": "Colegio XYZ",
+          "EducacionUniversitaria": "Universidad ABC"
+        },
+        "Laboral": {
+          "Trabajos": [
+            {
+              "Tipo": "Empleado",
+              "Empresa": "MobileTech Solutions",
+              "Cargo": "Desarrollador iOS"
+            },
+            {
+              "Tipo": "Freelancer",
+              "Empresa": "Independent",
+              "Cargo": "Disenador de Interfaces"
+            }
+          ]
+        },
+        "ConocimientosTecnicos": {
+          "LenguajeDeDesarrollo": ["Swift", "JavaScript"],
+          "BasesDeDatos": ["Core Data", "Firebase"],
+          "Mobiles": ["SwiftUI", "React Native"],
+          "OtrosSoftwares": ["Adobe XD", "Sketch"]
+        },
+        "InteresesPersonales": {
+          "Deporte": "Futbol",
+          "Musica": "Rock",
+          "Entretenimiento": "Videojuegos"
+        }
+      },
+
+      {
+        "Resumen": "Ingeniero de sistemas con experiencia en desarrollo de software y gestion de proyectos.",
+        "DatosPersonales": {
+          "Nombre": "Javier Ruiz",
+          "Direccion": "123 Oak Street",
+          "Telefonos": ["555-123-4567"],
+          "Email": "javier@example.com",
+          "RedesSociales": {
+            "LinkedIn": "https://linkedin.com/in/javierruiz",
+            "GitHub": "https://github.com/javierruiz"
+          }
+        },
+        "Educacion": {
+          "EnsenanzaBasica": "Escuela Primaria XYZ",
+          "EnsenanzaMedia": "Colegio ABC",
+          "EducacionUniversitaria": "Universidad 123"
+        },
+        "Laboral": {
+          "Trabajos": [
+            {
+              "Tipo": "Empleado",
+              "Empresa": "Tech Solutions",
+              "Cargo": "Ingeniero de Sistemas"
+            },
+            {
+              "Tipo": "Freelancer",
+              "Empresa": "Independent",
+              "Cargo": "Desarrollador de Software"
+            }
+          ]
+        },
+        "ConocimientosTecnicos": {
+          "LenguajeDeDesarrollo": ["Python", "Java"],
+          "BasesDeDatos": ["MySQL", "PostgreSQL"],
+          "OtrosSoftwares": ["Jira", "Git"]
+        },
+        "InteresesPersonales": {
+          "Deporte": "Ciclismo",
+          "Musica": "Electronica",
+          "Entretenimiento": "Cine"
+        }
+      },
+
+      {
+        "Resumen": "Desarrollador de software con experiencia en desarrollo web y movil.",
+        "DatosPersonales": {
+          "Nombre": "Santiago Perez",
+          "Direccion": "456 Calle Principal",
+          "Telefonos": ["111-222-3333", "444-555-6666"],
+          "Email": "santiago@example.com",
+          "RedesSociales": {
+            "LinkedIn": "https://linkedin.com/in/santiagoperez",
+            "GitHub": "https://github.com/santiagoperez"
+          }
+        },
+        "Educacion": {
+          "EnsenanzaBasica": "Colegio ABC",
+          "EnsenanzaMedia": "Liceo XYZ",
+          "EducacionUniversitaria": "Universidad 789"
+        },
+        "Laboral": {
+          "Trabajos": [
+            {
+              "Tipo": "Empleado",
+              "Empresa": "WebTech Solutions",
+              "Cargo": "Desarrollador Full Stack"
+            },
+            {
+              "Tipo": "Freelancer",
+              "Empresa": "Independent",
+              "Cargo": "Desarrollador de Aplicaciones Moviles"
+            }
+          ]
+        },
+        "ConocimientosTecnicos": {
+          "OS": ["Windows", "Linux"],
+          "LenguajeDeDesarrollo": ["JavaScript", "Python"],
+          "BasesDeDatos": ["MySQL", "MongoDB"],
+          "Mobiles": ["React Native", "Flutter"],
+          "OtrosSoftwares": ["Adobe Photoshop", "Microsoft Office"]
+        },
+        "InteresesPersonales": {
+          "Deporte": "Futbol",
+          "Musica": "Rock",
+          "Entretenimiento": "Videojuegos"
+        }
+      },
+
+      {
+        "Resumen": "Ingeniero en sistemas con experiencia en desarrollo web y gestion de proyectos.",
+        "DatosPersonales": {
+          "Nombre": "Elena Martinez",
+          "Direccion": "789 Avenida Principal",
+          "Telefonos": ["999-888-7777"],
+          "Email": "elena@example.com",
+          "RedesSociales": {
+            "LinkedIn": "https://linkedin.com/in/elenamartinez",
+            "GitHub": "https://github.com/elenamartinez"
+          }
+        },
+        "Educacion": {
+          "EnsenanzaBasica": "Escuela Primaria ABC",
+          "EnsenanzaMedia": "Colegio XYZ",
+          "EducacionUniversitaria": "Universidad 456"
+        },
+        "Laboral": {
+          "Trabajos": [
+            {
+              "Tipo": "Empleado",
+              "Empresa": "Tech Innovations",
+              "Cargo": "Desarrollador Full Stack"
+            },
+            {
+              "Tipo": "Freelancer",
+              "Empresa": "Independent",
+              "Cargo": "Consultora de Proyectos Web"
+            }
+          ]
+        },
+        "ConocimientosTecnicos": {
+          "LenguajeDeDesarrollo": ["JavaScript", "Java"],
+          "BasesDeDatos": ["MySQL", "PostgreSQL"],
+          "OtrosSoftwares": ["Git", "JIRA"]
+        },
+        "InteresesPersonales": {
+          "Deporte": "Tenis",
+          "Musica": "Pop",
+          "Entretenimiento": "Cine"
+        }
+      },
+
+      {
+        "Resumen": "Ingeniera de software con experiencia en desarrollo web y gestión de proyectos.",
+        "DatosPersonales": {
+          "Nombre": "Ana Lopez",
+          "Direccion": "456 Avenida Principal",
+          "Telefonos": ["222-333-4444"],
+          "Email": "ana@example.com",
+          "RedesSociales": {
+            "LinkedIn": "https://linkedin.com/in/analopez",
+            "GitHub": "https://github.com/analopez"
+          }
+        },
+        "Educacion": {
+          "EnsenanzaBasica": "Escuela Primaria 123",
+          "EnsenanzaMedia": "Colegio XYZ",
+          "EducacionUniversitaria": "Universidad 456"
+        },
+        "Laboral": {
+          "Trabajos": [
+            {
+              "Tipo": "Empleado",
+              "Empresa": "Tech Solutions",
+              "Cargo": "Desarrolladora Full Stack"
+            },
+            {
+              "Tipo": "Freelancer",
+              "Empresa": "Independent",
+              "Cargo": "Desarrolladora Web"
+            }
+          ]
+        },
+        "ConocimientosTecnicos": {
+          "OS": ["Windows", "Linux"],
+          "LenguajeDeDesarrollo": ["JavaScript", "Python"],
+          "BasesDeDatos": ["MySQL", "MongoDB"],
+          "OtrosSoftwares": ["Adobe Photoshop", "Microsoft Office"]
+        },
+        "InteresesPersonales": {
+          "Deporte": "Tenis",
+          "Musica": "Pop",
+          "Entretenimiento": "Viajar"
+        }
+      }       
+      
+]
+  
