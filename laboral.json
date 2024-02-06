@@ -1,0 +1,156 @@
+[
+    {   
+    "Pasantia": {
+    "Empresa": "TechCorp",
+    "Cargo": "Desarrollador Jr."
+    },
+        "Trabajos": [
+            {
+                "Tipo": "Freelancer",
+                "Empresa": "Independent",
+                "Cargo": "Desarrollador Web"
+              },
+              {
+                "Tipo": "Empleado",
+                "Empresa": "Software Solutions",
+                "Cargo": "Desarrollador Full Stack"
+              }
+            ]
+         
+    },
+
+    {
+        "Trabajos": [
+          {
+            "Tipo": "Empleado",
+            "Empresa": "Tech Solutions",
+            "Cargo": "Desarrollador de iOS"
+          },
+          {
+            "Tipo": "Freelancer",
+            "Empresa": "Independent",
+            "Cargo": "Desarrollador de Aplicaciones Moviles"
+          }
+        ]
+    },
+
+    {
+        "Trabajos": [
+          {
+            "Tipo": "Empleado",
+            "Empresa": "WebTech Solutions",
+            "Cargo": "Desarrollador Frontend"
+          },
+          {
+            "Tipo": "Freelancer",
+            "Empresa": "Independent",
+            "Cargo": "Disenador UI/UX"
+          }
+        ]
+    },
+
+    {
+        "Trabajos": [
+          {
+            "Tipo": "Empleado",
+            "Empresa": "Creative Designs",
+            "Cargo": "Disenador Grafico"
+          },
+          {
+            "Tipo": "Freelancer",
+            "Empresa": "Independent",
+            "Cargo": "Disenador UI/UX"
+          }
+        ]
+    },
+
+    {
+        "Trabajos": [
+          {
+            "Tipo": "Empleado",
+            "Empresa": "MobileTech Solutions",
+            "Cargo": "Desarrollador iOS"
+          },
+          {
+            "Tipo": "Freelancer",
+            "Empresa": "Independent",
+            "Cargo": "Disenador de Interfaces"
+          }
+        ]
+    },
+
+    {
+        "Trabajos": [
+          {
+            "Tipo": "Empleado",
+            "Empresa": "Tech Solutions",
+            "Cargo": "Ingeniero de Sistemas"
+          },
+          {
+            "Tipo": "Freelancer",
+            "Empresa": "Independent",
+            "Cargo": "Desarrollador de Software"
+          }
+        ]
+    },
+
+    {
+        "Trabajos": [
+          {
+            "Tipo": "Empleado",
+            "Empresa": "WebTech Solutions",
+            "Cargo": "Desarrollador Full Stack"
+          },
+          {
+            "Tipo": "Freelancer",
+            "Empresa": "Independent",
+            "Cargo": "Desarrollador de Aplicaciones Moviles"
+          }
+        ]
+    },
+
+    {
+        "Trabajos": [
+          {
+            "Tipo": "Empleado",
+            "Empresa": "Tech Innovations",
+            "Cargo": "Desarrollador Full Stack"
+          },
+          {
+            "Tipo": "Freelancer",
+            "Empresa": "Independent",
+            "Cargo": "Consultora de Proyectos Web"
+          }
+        ]
+    },
+
+    {
+        "Trabajos": [
+          {
+            "Tipo": "Empleado",
+            "Empresa": "Tech Solutions",
+            "Cargo": "Desarrolladora Full Stack"
+          },
+          {
+            "Tipo": "Freelancer",
+            "Empresa": "Independent",
+            "Cargo": "Desarrolladora Web"
+          }
+        ]
+    },
+
+    {
+        "Trabajos": [
+          {
+            "Tipo": "Empleado",
+            "Empresa": "Tech Solutions",
+            "Cargo": "Ingeniero de Sistemas"
+          },
+          {
+            "Tipo": "Freelancer",
+            "Empresa": "Independent",
+            "Cargo": "Desarrollador de Software"
+          }
+        ]
+    }
+]

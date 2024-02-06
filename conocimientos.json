@@ -1,0 +1,70 @@
+[
+    {
+        "OS": ["Windows", "Linux"],
+        "LenguajeDeDesarrollo": ["JavaScript", "Python"],
+        "BasesDeDatos": ["MongoDB", "MySQL"],
+        "Mobiles": ["React Native", "Flutter"],
+        "OtrosSoftwares": ["Adobe Photoshop", "Microsoft Office"]
+    },
+
+    {
+        "OS": ["iOS", "Android"],
+        "LenguajeDeDesarrollo": ["Swift", "Java"],
+        "BasesDeDatos": ["SQLite", "Firebase"],
+        "Mobiles": ["Flutter", "Xamarin"]
+    },
+
+    {
+        "OS": ["Windows", "Linux"],
+        "LenguajeDeDesarrollo": ["HTML", "CSS", "JavaScript"],
+        "BasesDeDatos": ["MySQL", "MongoDB"],
+        "Mobiles": [],
+        "OtrosSoftwares": ["Adobe Illustrator", "Sketch"]
+    },
+
+    {
+        "LenguajeDeDesarrollo": ["HTML", "CSS"],
+        "BasesDeDatos": ["MongoDB"],
+        "OtrosSoftwares": ["Adobe Illustrator", "Adobe XD", "Sketch"]
+    },
+
+    {
+        "LenguajeDeDesarrollo": ["Python", "Java"],
+        "BasesDeDatos": ["MySQL", "PostgreSQL"],
+        "OtrosSoftwares": ["Jira", "Git"]
+    },
+
+    {
+        "LenguajeDeDesarrollo": ["Swift", "JavaScript"],
+        "BasesDeDatos": ["Core Data", "Firebase"],
+        "Mobiles": ["SwiftUI", "React Native"],
+        "OtrosSoftwares": ["Adobe XD", "Sketch"]
+    },
+
+    {
+        "LenguajeDeDesarrollo": ["Python", "Java"],
+        "BasesDeDatos": ["MySQL", "PostgreSQL"],
+        "OtrosSoftwares": ["Jira", "Git"]
+    },
+
+    {
+        "OS": ["Windows", "Linux"],
+        "LenguajeDeDesarrollo": ["JavaScript", "Python"],
+        "BasesDeDatos": ["MySQL", "MongoDB"],
+        "Mobiles": ["React Native", "Flutter"],
+        "OtrosSoftwares": ["Adobe Photoshop", "Microsoft Office"]
+    },
+
+    {
+        "LenguajeDeDesarrollo": ["JavaScript", "Java"],
+        "BasesDeDatos": ["MySQL", "PostgreSQL"],
+        "OtrosSoftwares": ["Git", "JIRA"]
+    },
+
+    {
+        "OS": ["Windows", "Linux"],
+        "LenguajeDeDesarrollo": ["JavaScript", "Python"],
+        "BasesDeDatos": ["MySQL", "MongoDB"],
+        "OtrosSoftwares": ["Adobe Photoshop", "Microsoft Office"]
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "Deporte": "Futbol",
+        "Musica": "Rock",
+        "Animales": "Perros",
+        "Entretenimiento": "Videojuegos"
+    },
+
+    {
+        "Deporte": "Tenis",
+        "Musica": "Pop",
+        "Entretenimiento": "Cine"
+    },
+
+    {
+        "Deporte": "Baloncesto",
+        "Musica": "Jazz",
+        "Entretenimiento": "Viajar"
+    },
+
+    {
+        "Deporte": "Senderismo",
+        "Musica": "Indie",
+        "Entretenimiento": "Fotografia"
+    },
+
+    {
+        "Deporte": "Ciclismo",
+        "Musica": "Electronica",
+        "Entretenimiento": "Cine"
+    },
+
+    {
+        "Deporte": "Futbol",
+        "Musica": "Rock",
+        "Entretenimiento": "Videojuegos"
+    },
+
+    {
+        "Deporte": "Ciclismo",
+        "Musica": "Electronica",
+        "Entretenimiento": "Cine"
+    },
+
+    {
+        "Deporte": "Futbol",
+        "Musica": "Rock",
+        "Entretenimiento": "Videojuegos"
+    },
+
+    {
+        "Deporte": "Tenis",
+        "Musica": "Pop",
+        "Entretenimiento": "Cine"
+    },
+
+    {
+        "Deporte": "Tenis",
+        "Musica": "Pop",
+        "Entretenimiento": "Viajar"
+    }
+
+]

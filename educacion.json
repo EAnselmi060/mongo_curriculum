@@ -1,0 +1,64 @@
+[
+    {
+        "EnsenanzaBasica": "Colegio ABC",
+        "EnsenanzaMedia": "Liceo XYZ",
+        "EducacionUniversitaria": "Universidad 123",
+        "Otros": "Curso de Desarrollo Web en linea"
+    },
+
+    {
+        "EnsenanzaBasica": "Colegio XYZ",
+        "EnsenanzaMedia": "Liceo ABC",
+        "EducacionUniversitaria": "Universidad 456"
+    },
+
+    {
+        "EnsenanzaBasica": "Escuela Primaria 123",
+        "EnsenanzaMedia": "Colegio ABC",
+        "EducacionUniversitaria": "Universidad XYZ"
+    },
+
+    {
+        "EnsenanzaBasica": "Colegio ABC",
+        "EnsenanzaMedia": "Liceo XYZ",
+        "EducacionUniversitaria": "Universidad 789"
+    },
+
+    {
+        "EnsenanzaBasica": "Colegio XYZ",
+        "EnsenanzaMedia": "Liceo ABC",
+        "EducacionUniversitaria": "Universidad 789"
+    },
+
+    {
+        "EnsenanzaBasica": "Escuela Primaria 789",
+        "EnsenanzaMedia": "Colegio XYZ",
+        "EducacionUniversitaria": "Universidad ABC"
+    },
+
+    {
+        "EnsenanzaBasica": "Escuela Primaria XYZ",
+        "EnsenanzaMedia": "Colegio ABC",
+        "EducacionUniversitaria": "Universidad 123"
+    },
+
+    {
+        "EnsenanzaBasica": "Colegio ABC",
+        "EnsenanzaMedia": "Liceo XYZ",
+        "EducacionUniversitaria": "Universidad 789"
+    },
+
+    {
+        "EnsenanzaBasica": "Escuela Primaria ABC",
+        "EnsenanzaMedia": "Colegio XYZ",
+        "EducacionUniversitaria": "Universidad 456"
+    },
+
+    {
+        "EnsenanzaBasica": "Escuela Primaria 123",
+        "EnsenanzaMedia": "Colegio XYZ",
+        "EducacionUniversitaria": "Universidad 456"
+    }
+
+    
+]

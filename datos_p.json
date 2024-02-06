@@ -1,0 +1,113 @@
+
+[
+    {
+        "Nombre": "Juan Perez",
+        "Direccion": "123 Calle Principal",
+        "Telefonos": ["123-456-7890", "098-765-4321"],
+        "Email": "juan@example.com",
+        "RedesSociales": {
+        "LinkedIn": "https://linkedin.com/in/juanperez",
+        "GitHub": "https://github.com/juanperez"
+        }
+    },
+
+    {
+        "Nombre": "Maria Garcia",
+        "Direccion": "456 Main Street",
+        "Telefonos": ["555-123-4567", "777-987-6543"],
+        "Email": "maria@example.com",
+        "RedesSociales": {
+        "LinkedIn": "https://linkedin.com/in/mariagarcia",
+        "GitHub": "https://github.com/mariagarcia"
+        }
+    },
+
+    {
+        "Nombre": "Carlos Lopez",
+        "Direccion": "789 Elm Street",
+        "Telefonos": ["999-876-5432"],
+        "Email": "carlos@example.com",
+        "RedesSociales": {
+          "LinkedIn": "https://linkedin.com/in/carloslopez",
+          "GitHub": "https://github.com/carloslopez"
+        }
+    },
+
+    {
+        "Nombre": "Pedro Sanchez",
+        "Direccion": "789 Pine Street",
+        "Telefonos": ["555-321-9876"],
+        "Email": "pedro@example.com",
+        "RedesSociales": {
+          "LinkedIn": "https://linkedin.com/in/pedrosanchez",
+          "GitHub": "https://github.com/pedrosanchez"
+        }
+    },
+
+    {
+        "Nombre": "Laura Gomez",
+        "Direccion": "456 Maple Street",
+        "Telefonos": ["555-987-6543"],
+        "Email": "laura@example.com",
+        "RedesSociales": {
+          "LinkedIn": "https://linkedin.com/in/lauragomez",
+          "GitHub": "https://github.com/lauragomez"
+        }
+    },
+
+    {
+        "Nombre": "Alejandro Garcia",
+        "Direccion": "789 Cedar Street",
+        "Telefonos": ["555-456-1234"],
+        "Email": "alejandro@example.com",
+        "RedesSociales": {
+          "LinkedIn": "https://linkedin.com/in/alejandrogarcia",
+          "GitHub": "https://github.com/alejandrogarcia"
+        }
+    },
+
+    {
+        "Nombre": "Javier Ruiz",
+        "Direccion": "123 Oak Street",
+        "Telefonos": ["555-123-4567"],
+        "Email": "javier@example.com",
+        "RedesSociales": {
+          "LinkedIn": "https://linkedin.com/in/javierruiz",
+          "GitHub": "https://github.com/javierruiz"
+        }
+    },
+
+    {
+        "Nombre": "Santiago Perez",
+        "Direccion": "456 Calle Principal",
+        "Telefonos": ["111-222-3333", "444-555-6666"],
+        "Email": "santiago@example.com",
+        "RedesSociales": {
+          "LinkedIn": "https://linkedin.com/in/santiagoperez",
+          "GitHub": "https://github.com/santiagoperez"
+        }
+    },
+
+    {
+        "Nombre": "Elena Martinez",
+        "Direccion": "789 Avenida Principal",
+        "Telefonos": ["999-888-7777"],
+        "Email": "elena@example.com",
+        "RedesSociales": {
+          "LinkedIn": "https://linkedin.com/in/elenamartinez",
+          "GitHub": "https://github.com/elenamartinez"
+        }
+    },
+
+    {
+        "Nombre": "Ana Lopez",
+        "Direccion": "456 Avenida Principal",
+        "Telefonos": ["222-333-4444"],
+        "Email": "ana@example.com",
+        "RedesSociales": {
+          "LinkedIn": "https://linkedin.com/in/analopez",
+          "GitHub": "https://github.com/analopez"
+        }
+    }
+
+]
