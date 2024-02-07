@@ -112,6 +112,10 @@
           "EducacionUniversitaria": "Universidad XYZ"
         },
         "Laboral": {
+          "Pasantia": {
+            "Empresa": "TechCorp",
+            "Cargo": "Desarrollador Jr."
+          },
           "Trabajos": [
             {
               "Tipo": "Empleado",
@@ -157,6 +161,10 @@
           "EducacionUniversitaria": "Universidad 789"
         },
         "Laboral": {
+          "Pasantia": {
+            "Empresa": "Digital Agency XYZ",
+            "Cargo": "Diseñador de Interfaces Digitales"
+          },
           "Trabajos": [
             {
               "Tipo": "Empleado",
@@ -200,6 +208,10 @@
           "EducacionUniversitaria": "Universidad 789"
         },
         "Laboral": {
+          "Pasantia": {
+            "Empresa": "Tech Innovations",
+            "Cargo": "Desarrolladora de Software en Prácticas"
+          },
           "Trabajos": [
             {
               "Tipo": "Empleado",
@@ -243,6 +255,10 @@
           "EducacionUniversitaria": "Universidad ABC"
         },
         "Laboral": {
+          "Pasantia": {
+            "Empresa": "MobileTech Solutions",
+            "Cargo": "Desarrollador de Aplicaciones Móviles en Prácticas"
+          },
           "Trabajos": [
             {
               "Tipo": "Empleado",
@@ -287,6 +303,10 @@
           "EducacionUniversitaria": "Universidad 123"
         },
         "Laboral": {
+          "Pasantia": {
+            "Empresa": "Tech Solutions",
+            "Cargo": "Prácticas en Ingeniería de Sistemas"
+          },
           "Trabajos": [
             {
               "Tipo": "Empleado",
@@ -330,6 +350,10 @@
           "EducacionUniversitaria": "Universidad 789"
         },
         "Laboral": {
+          "Pasantia": {
+            "Empresa": "Tech Startups Inc.",
+            "Cargo": "Desarrollador de software en pasantía"
+          },
           "Trabajos": [
             {
               "Tipo": "Empleado",
@@ -375,6 +399,10 @@
           "EducacionUniversitaria": "Universidad 456"
         },
         "Laboral": {
+          "Pasantia": {
+            "Empresa": "Tech Solutions Inc.",
+            "Cargo": "Desarrollador de proyectos web en pasantía"
+          },
           "Trabajos": [
             {
               "Tipo": "Empleado",
@@ -418,6 +446,10 @@
           "EducacionUniversitaria": "Universidad 456"
         },
         "Laboral": {
+          "Pasantia": {
+            "Empresa": "Tech Solutions Inc.",
+            "Cargo": "Desarrolladora de proyectos web en pasantía"
+          },
           "Trabajos": [
             {
               "Tipo": "Empleado",
@@ -443,6 +475,5 @@
           "Entretenimiento": "Viajar"
         }
       }       
-      
 ]
   
