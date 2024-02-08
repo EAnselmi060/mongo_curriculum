@@ -1,0 +1,206 @@
+
+db.Curriculums.find({'ConocimientosTecnicos.BasesDeDatos': 'MongoDB','Educacion.EducacionUniversitaria': 'Universidad 789'}).pretty()
+
+Proyecciones
+
+
+Solo mostrar los datos personales de los curriculum que cumplan con determinados Conocimientos Tecnicos y que hayan estudiado en determinada universidad
+
+db.Curriculums.find({'ConocimientosTecnicos.BasesDeDatos': 'MongoDB','Educacion.EducacionUniversitaria': 'Universidad 789'}, {'DatosPersonales': 1}).pretty()
+
+
+db.Curriculums.find({Resumen: 'Ingeniero de sistemas con experiencia en desarrollo de software y gestion de proyectos.','InteresesPersonales.Musica': 'Electronica'})
+
+//Curriculum que cumpla con determinada direccion y Conocomientos en determinado lenguaje de programacion 
+
+db.Curriculums.find{'DatosPersonales.Direccion': '123 Oak Street','ConocimientosTecnicos.LenguajeDeDesarrollo': 'Python'}
+
+
+//Operaciones de Actualizacion 
+
+//Actualizar un Campo
+
+db.Curriculums.updateOne(
+	{'DatosPersonales.Email': 'laura@example.com'},
+	{$set: 
+	     { 'DatosPersonales.Email': "laura@gmail.com"}
+	}
+
+ )
+
+
+//Insercion de un array Idiomas dentro del documento ConocimientosTecnicos 
+
+db.Curriculums.updateOne(
+	{ _id: ObjectId("65c2c45d0dab7c365340fba5") },
+	{$set: 
+	     { 'ConocimientosTecnicos.Idiomas': ["Espanol", "Ingles"]}
+	}
+
+ )
+
+
+db.Curriculums.find({_id: ObjectId("65c2c45d0dab7c365340fba5")}).pretty()
+
+//Eliminar el campo introducido anteriormente con $unset
+
+db.Curriculums.updateOne(
+	{ _id: ObjectId("65c2c45d0dab7c365340fba5") },
+	{$unset: 
+	     { 'ConocimientosTecnicos.Idiomas': ["Espanol", "Ingles"]}
+	}
+
+ )
+
+//Renombrar un campo 
+
+//Renombrar el campo EnsenanzaBasica a Basica 
+db.Curriculums.updateOne(
+  { _id: ObjectId('65c2c45d0dab7c365340fba5') },
+  { $rename: { "Educacion.EnsenanzaBasica": "Educacion.Basica" } }
+)
+
+
+//Operadores de actualizacion de vectores 
+
+
+db.Curriculums.updateOne(
+	{ _id: ObjectId("65c2c45d0dab7c365340fba5") },
+	{$set: 
+	     { 'ConocimientosTecnicos.Idiomas': ["Espanol", "Ingles"]}
+	}
+
+ )
+
+//Agregamos un idioma al vector de idiomas siempre y cuando este no exista en ese vector
+db.Curriculums.updateOne(
+	{ _id: ObjectId("65c2c45d0dab7c365340fba5") },
+	{$addToSet: 
+	     { 'ConocimientosTecnicos.Idiomas': "Frances"}
+	}
+
+ )
+
+//Agregamos un elemento al vector Trabajo con el metodo Push
+
+db.Curriculums.updateOne(
+	{ _id: ObjectId("65c2c45d0dab7c365340fba3") },
+	{$push: { 
+	   'Laboral.Trabajos':{
+		
+		Tipo: "Empleado",
+		Empresa: "Apple",
+		Cargo: "Desarrollador Backend"
+	}}})
+
+
+//Eliminamos un elemento al vector Trabajo con el metodo Pop
+// Con -1 se elimina el primer elemento del vector
+// COn 1 se elimina el ultimo elemento del vector
+db.Curriculums.updateOne(
+	{ _id: ObjectId("65c2c45d0dab7c365340fba3") },
+	{$pop: { 
+	   'Laboral.Trabajos': -1 }})
+
+
+//Operador de actualizacion updateMany()
+
+
+// Cambiar el nombre de la empresa en los documentos que tienen una pasantía de "TechCorp" a "NewTechCorp"
+db.Curriculums.updateMany(
+  { "Laboral.Pasantia.Empresa": "TechCorp" },
+  { $set: { "Laboral.Pasantia.Empresa": "NewTechCorp" } }
+)
+
+//Agregar un campo vacio a todos los documentos con updateMany()
+
+db.Curriculums.updateMany(
+  {},
+  { $set: { NuevoCampo: "" } }
+)
+
+//Borrar todos esos campos vacios con updateMany()
+
+db.Curriculums.updateMany(
+  { NuevoCampo: "" },
+  { $unset: { NuevoCampo: "" } }
+)
+
+
+
+db.Curriculums.replaceOne(
+  { "_id": ObjectId("65c2c45d0dab7c365340fb9e") },
+  {
+    "_id": ObjectId("65c2c45d0dab7c365340fb9e"),
+    "Resumen": "Ingeniera de software con experiencia en desarrollo de aplicaciones móviles.",
+    "DatosPersonales": {
+      "Nombre": "Maria Garcia",
+      "Direccion": "456 Main Street",
+      "Telefonos": [
+        "555-123-4567",
+        "777-987-6543"
+      ],
+      "Email": "maria@example.com",
+      "RedesSociales": {
+        "LinkedIn": "https://linkedin.com/in/mariagarcia",
+        "GitHub": "https://github.com/mariagarcia"
+      }
+    },
+    "Educacion": {
+      "EnsenanzaBasica": "Colegio XYZ",
+      "EnsenanzaMedia": "Liceo ABC",
+      "EducacionUniversitaria": "Universidad 456"
+    },
+    "Laboral": {
+      "Trabajos": [
+        {
+          "Tipo": "Empleado",
+          "Empresa": "Tech Solutions",
+          "Cargo": "Desarrolladora de iOS"
+        },
+        {
+          "Tipo": "Freelancer",
+          "Empresa": "Independent",
+          "Cargo": "Desarrolladora de Aplicaciones Móviles"
+        }
+      ]
+    },
+    "ConocimientosTecnicos": {
+      "OS": [
+        "iOS",
+        "Android"
+      ],
+      "LenguajeDeDesarrollo": [
+        "Swift",
+        "Java"
+      ],
+      "BasesDeDatos": [
+        "SQLite",
+        "Firebase"
+      ],
+      "Mobiles": [
+        "Flutter",
+        "Xamarin"
+      ]
+    },
+    "InteresesPersonales": {
+      "Deporte": "Tenis",
+      "Musica": "Pop",
+      "Entretenimiento": "Cine"
+    }
+  },
+  { upsert: true }
+)
+
+db.Curriculums.find({_id: ObjectId("65c2c45d0dab7c365340fb9e")}).pretty()
+
+
+//Operaciones de Eliminacion
+
+
+db.Curriculums.find({_id: ObjectId("65c2c45d0dab7c365340fba5")}).pretty()
+db.Curriculums.deleteOne({ _id: ObjectId("65c2c45d0dab7c365340fba5") })
+db.Curriculums.deleteOne({'DatosPersonales.Nombre': 'Elena Martinez'})
+db.Curriculums.deleteMany({'InteresesPersonales.Musica': 'Rock'})
+
+
